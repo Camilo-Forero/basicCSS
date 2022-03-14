@@ -1,0 +1,222 @@
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin global vars--*/
+:root 
+{
+	--var1vw: 1vw;
+	--var2vw: 2vw;
+	--var3vw: 3vw;
+	--var4vw: 4vw;
+	--var5vw: 5vw;
+	--var10vw: 10vw;
+	--var15vw: 15vw;
+	--var20vw: 20vw;
+	--var25vw: 25vw;
+	--var30vw: 30vw;
+	--var35vw: 35vw;
+	--var40vw: 40vw;
+	--var45vw: 45vw;
+	--var50vw: 50vw;
+	--var55vw: 55vw;
+	--var60vw: 60vw;
+	--var65vw: 65vw;
+	--var70vw: 70vw;
+	--var75vw: 75vw;
+	--var80vw: 80vw;
+	--var85vw: 85vw;
+	--var90vw: 90vw;
+	--var95vw: 95vw;
+	--var100vw: 100vw;
+	--var1vh: 1vh;
+	--var2vh: 2vh;
+	--var3vh: 3vh;
+	--var4vh: 4vh;
+	--var5vh: 5vh;
+	--var10vh: 10vh;
+	--var15vh: 15vh;
+	--var20vh: 20vh;
+	--var25vh: 25vh;
+	--var30vh: 30vh;
+	--var35vh: 53vh;
+	--var40vh: 40vh;
+	--var45vh: 45vh;
+	--var50vh: 50vh;
+	--var55vh: 55vh;
+	--var60vh: 60vh;
+	--var65vh: 65vh;
+	--var70vh: 70vh;
+	--var75vh: 75vh;
+	--var80vh: 80vh;
+	--var85vh: 85vh;
+	--var90vh: 90vh;
+	--var95vh: 95vh;
+	--var100vh: 100vh;
+	--var1p: 1%;
+	--var2p: 2%;
+	--var3p: 3%;
+	--var4p: 4%;
+	--var5p: 5%;
+	--var10p: 10%;
+	--var15p: 15%;
+	--var20p: 20%;
+	--var25p: 25%;
+	--var30p: 30%;
+	--var35p: 35%;
+	--var40p: 40%;
+	--var45p: 45%;
+	--var50p: 50%;
+	--var55p: 55%;
+	--var60p: 60%;
+	--var65p: 65%;
+	--var70p: 70%;
+	--var75p: 75%;
+	--var80p: 80%;
+	--var85p: 85%;
+	--var90p: 90%;
+	--var95p: 95%;
+	--var100p: 100%;
+	--var1px: 1px;
+	--var2px: 2px;
+	--var3px: 3px;
+	--var4px: 4px;
+	--var5px: 5px;
+	--var10px: 10px;
+	--var15px: 15px;
+	--var20px: 20px;
+	--var25px: 25px;
+	--var30px: 30px;
+	--var35px: 35px;
+	--var40px: 40px;
+	--var45px: 45px;
+	--var50px: 50px;
+	--var55px: 55px;
+	--var60px: 60px;
+	--var65px: 65px;
+	--var70px: 70px;
+	--var75px: 75px;
+	--var80px: 80px;
+	--var85px: 85px;
+	--var90px: 90px;
+	--var95px: 95px;
+	--var100px: 100px;
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--end global vars--*/
+@media only screen and (max-width: 600px)
+{
+	:root 
+	{
+		--blue: #1e90ff;
+		--white: #ffffff;
+		--sizesm: 100%;
+		--backgroundColor: green;
+		--basicColum1: 1fr;
+		--basicColum2: auto;
+		--basicColum3: 1fr;
+		--basicColum4: 1fr;
+		--basicColum5: 1fr;
+		--basicColum6: 1fr;
+		--varContainer5vw: 100vw;
+		--varContainer10vw: 100vw;
+		--varContainer15vw: 100vw;
+		--varContainer20vw: 100vw;
+		--varContainer25vw: 100vw;
+		--varContainer30vw: 100vw;
+		--varContainer35vw: 100vw;
+		--varContainer40vw: 100vw;
+		--varContainer45vw: 100vw;
+		--varContainer50vw: 100vw;
+		--varContainer55vw: 100vw;
+		--varContainer60vw: 100vw;
+		--varContainer65vw: 100vw;
+		--varContainer70vw: 100vw;
+		--varContainer75vw: 100vw;
+		--varContainer80vw: 100vw;
+		--varContainer85vw: 100vw;
+		--varContainer90vw: 100vw;
+		--varContainer95vw: 100vw;
+		--varContainer100vw: 100vw;
+		--varContainer5vh: 100vh;
+		--varContainer10vh: 100vh;
+		--varContainer15vh: 100vh;
+		--varContainer20vh: 100vh;
+		--varContainer25vh: 100vh;
+		--varContainer30vh: 100vh;
+		--varContainer35vh: 100vh;
+		--varContainer40vh: 100vh;
+		--varContainer45vh: 100vh;
+		--varContainer50vh: 100vh;
+		--varContainer55vh: 100vh;
+		--varContainer60vh: 100vh;
+		--varContainer65vh: 100vh;
+		--varContainer70vh: 100vh;
+		--varContainer75vh: 100vh;
+		--varContainer80vh: 100vh;
+		--varContainer85vh: 100vh;
+		--varContainer90vh: 100vh;
+		--varContainer95vh: 100vh;
+		--varContainer100vh: 100vh;
+
+		--var1vw: 4vh;
+		--var2vw: 8vh;
+		--corporativeColorGreen: #00cccc;
+	}  
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--end global vars--*/
+@media only screen and (min-width: 601px)
+{
+	:root 
+	{
+		--blue: #1e90ff;
+		--white: #ffffff;
+		--sizesm: 50%;
+		--backgroundColor: white;
+		--basicColum1: 1fr;
+		--basicColum2: auto auto;
+		--basicColum3: 1fr 1fr 1fr;
+		--basicColum4: 1fr 1fr 1fr 1fr;
+		--basicColum5: 1fr 1fr 1fr 1fr 1fr;
+		--basicColum6: 1fr 1fr 1fr 1fr 1fr 1fr;
+		--varContainer5vw: 5vw;
+		--varContainer10vw: 10vw;
+		--varContainer15vw: 15vw;
+		--varContainer20vw: 20vw;
+		--varContainer25vw: 25vw;
+		--varContainer30vw: 30vw;
+		--varContainer35vw: 35vw;
+		--varContainer40vw: 40vw;
+		--varContainer45vw: 45vw;
+		--varContainer50vw: 50vw;
+		--varContainer55vw: 55vw;
+		--varContainer60vw: 60vw;
+		--varContainer65vw: 65vw;
+		--varContainer70vw: 70vw;
+		--varContainer75vw: 75vw;
+		--varContainer80vw: 80vw;
+		--varContainer85vw: 85vw;
+		--varContainer90vw: 90vw;
+		--varContainer95vw: 95vw;
+		--varContainer100vw: 100vw;
+		--varContainer5vh: 5vh;
+		--varContainer10vh: 10vh;
+		--varContainer15vh: 15vh;
+		--varContainer20vh: 20vh;
+		--varContainer25vh: 25vh;
+		--varContainer30vh: 30vh;
+		--varContainer35vh: 35vh;
+		--varContainer40vh: 40vh;
+		--varContainer45vh: 45vh;
+		--varContainer50vh: 50vh;
+		--varContainer55vh: 55vh;
+		--varContainer60vh: 60vh;
+		--varContainer65vh: 65vh;
+		--varContainer70vh: 70vh;
+		--varContainer75vh: 75vh;
+		--varContainer80vh: 80vh;
+		--varContainer85vh: 85vh;
+		--varContainer90vh: 90vh;
+		--varContainer95vh: 95vh;
+		--varContainer100vh: 100vh;
+		--corporativeColorGreen: #00cccc;
+	}  
+}

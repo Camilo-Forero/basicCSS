@@ -1,0 +1,3072 @@
+/*--begin globalcontrols--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Erase any existing margin or padding.
+@return: none
+*/
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: set on 100 percent the body and html.
+@return: none
+*/
+
+html, body
+{
+	width:100%;
+	height:100%;
+}
+/*--end globalcontrols--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin fonts--*/
+.fontCaviar
+{
+	font-family: caviarDreams;
+}
+/*--end fonts--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin background color--*/
+
+ .corporativeColorGreen
+{
+	background-color:var(--corporativeColorGreen);
+}
+
+.corporativeColorWhitePurple
+{
+	background-color: #e6e6ff;
+}
+
+.corporativeColorWhite
+{
+	background-color: white;
+}
+
+.colorGreen
+{
+	background-color: green;	
+}
+
+.corporativeColorRedWarning
+{
+	background-color: #a22e2e;
+}
+
+/*--end background color--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin font color--*/
+
+.fontCorporativeColorGreen
+{
+	color: #00cccc;
+}
+
+.fontColorWhite
+{
+	color: white;
+}
+
+.fontCorporativeColorRedWarning
+{
+	color: #a22e2e;
+}
+/*--end font color--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin floats--*/
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+/*--end floats--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin rows--*/
+.mainContainer
+{
+	/*height: 46.91em;*/
+	height: 100%;
+}
+
+.rowContainerNoneHeight
+{
+	width: 100%;
+}
+
+.rowContainer1
+{
+	height:100%;
+	width: 100%;
+}
+
+.rowContainer2
+{
+	height:50%;
+	width: 100%;
+}
+
+.rowContainer3
+{
+	height:33.3%;
+	width: 100%;
+}
+
+.rowContainer4
+{
+	height:25%;
+	width: 100%;
+}
+
+.rowContainer5
+{
+	height:20%;
+	width: 100%;
+}
+
+.rowContainer10
+{
+	height:10%;
+	width: 100%;
+}
+
+.rowContainer6Half
+{
+	height: 66.7%;
+}
+
+.rowContainer8Half
+{
+	height: 80%;
+}
+
+.rowContainer7Half
+{
+	height: 75%;
+}
+
+.rowContainer9Half
+{
+	height: 90%;
+}
+/*--end rows--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin widths--*/
+.width1p
+{
+	width: var(--var1p);
+}
+
+.width2p
+{
+	width: var(--var2p);
+}
+
+.width3p
+{
+	width: var(--var3p);
+}
+
+.width4p
+{
+	width: var(--var4p);
+}
+
+.width5p
+{
+	width: var(--var5p);
+}
+
+.width10p
+{
+	width: var(--var10p);
+}
+
+.width15p
+{
+	width: var(--var15p);
+}
+
+.width20p
+{
+	width: var(--var20p);
+}
+
+.width25p
+{
+	width: var(--var25p);
+}
+
+.width30p
+{
+	width: var(--var30p);
+}
+
+.width35p
+{
+	width: var(--var35p);
+}
+
+.width40p
+{
+	width: var(--var40p);
+}
+
+.width45p
+{
+	width: var(--var45p);
+}
+
+.width50p
+{
+	width: var(--var50p);
+}
+
+.width55p
+{
+	width: var(--var55p);
+}
+
+.width60p
+{
+	width: var(--var60p);
+}
+
+.width65p
+{
+	width: var(--var65p);
+}
+
+.width70p
+{
+	width: var(--var70p);
+}
+
+.width75p
+{
+	width: var(--var75p);
+}
+
+.width80p
+{
+	width: var(--var80p);
+}
+
+.width85p
+{
+	width: var(--var85p);
+}
+
+.width90p
+{
+	width: var(--var90p);
+}
+
+.width95p
+{
+	width: var(--var95p);
+}
+
+.width100p
+{
+	width: var(--var100p);
+}
+/*--end widths--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin widths--*/
+.width1vh
+{
+	width: var(--var1vh);
+}
+
+.width2vh
+{
+	width: var(--var2vh);
+}
+
+.width3vh
+{
+	width: var(--var3vh);
+}
+
+.width4vh
+{
+	width: var(--var4vh);
+}
+
+.width5vh
+{
+	width: var(--var5vh);
+}
+
+.width10vh
+{
+	width: var(--var10vh);
+}
+
+.width15vh
+{
+	width: var(--var15vh);
+}
+
+.width20vh
+{
+	width: var(--var20vh);
+}
+
+.width25vh
+{
+	width: var(--var25vh);
+}
+
+.width30vh
+{
+	width: var(--var30vh);
+}
+
+.width35vh
+{
+	width: var(--var35vh);
+}
+
+.width40vh
+{
+	width: var(--var40vh);
+}
+
+.width45vh
+{
+	width: var(--var45vh);
+}
+
+.width50vh
+{
+	width: var(--var50vh);
+}
+
+.width55vh
+{
+	width: var(--var55vh);
+}
+
+.width60vh
+{
+	width: var(--var60vh);
+}
+
+.width65vh
+{
+	width: var(--var65vh);
+}
+
+.width70vh
+{
+	width: var(--var70vh);
+}
+
+.width75vh
+{
+	width: var(--var75vh);
+}
+
+.width80vh
+{
+	width: var(--var80vh);
+}
+
+.width85vh
+{
+	width: var(--var85vh);
+}
+
+.width90vh
+{
+	width: var(--var90vh);
+}
+
+.width95vh
+{
+	width: var(--var95vh);
+}
+
+.width100vh
+{
+	width: var(--var100vh);
+}
+/*--end widths--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin widths--*/
+.width1vw
+{
+	width: var(--var1vw);
+}
+
+.width2vw
+{
+	width: var(--var2vw);
+}
+
+.width3vw
+{
+	width: var(--var3vw);
+}
+
+.width4vw
+{
+	width: var(--var4vw);
+}
+
+.width5vw
+{
+	width: var(--var5vw);
+}
+
+.width10vw
+{
+	width: var(--var10vw);
+}
+
+.width15vw
+{
+	width: var(--var15vw);
+}
+
+.width20vw
+{
+	width: var(--var20vw);
+}
+
+.width25vw
+{
+	width: var(--var25vw);
+}
+
+.width30vw
+{
+	width: var(--var30vw);
+}
+
+.width35vw
+{
+	width: var(--var35vw);
+}
+
+.width40vw
+{
+	width: var(--var40vw);
+}
+
+.width45vw
+{
+	width: var(--var45vw);
+}
+
+.width50vw
+{
+	width: var(--var50vw);
+}
+
+.width55vw
+{
+	width: var(--var55vw);
+}
+
+.width60vw
+{
+	width: var(--var60vw);
+}
+
+.width65vw
+{
+	width: var(--var65vw);
+}
+
+.width70vw
+{
+	width: var(--var70vw);
+}
+
+.width75vw
+{
+	width: var(--var75vw);
+}
+
+.width80vw
+{
+	width: var(--var80vw);
+}
+
+.width85vw
+{
+	width: var(--var85vw);
+}
+
+.width90vw
+{
+	width: var(--var90vw);
+}
+
+.width95vw
+{
+	width: var(--var95vw);
+}
+
+.width100vw
+{
+	width: var(--var100vw);
+}
+/*--end widths--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin heights--*/
+.height1p
+{
+	height: var(--var1p);
+}
+
+.height2p
+{
+	height: var(--var2p);
+}
+
+.height3p
+{
+	height: var(--var3p);
+}
+
+.height4p
+{
+	height: var(--var4p);
+}
+
+.height5p
+{
+	height: var(--var5p);
+}
+
+.height10p
+{
+	height: var(--var10p);
+}
+
+.height15p
+{
+	height: var(--var15p);
+}
+
+.height20p
+{
+	height: var(--var20p);
+}
+
+.height25p
+{
+	height: var(--var25p);
+}
+
+.height30p
+{
+	height: var(--var30p);
+}
+
+.height35p
+{
+	height: var(--var35p);
+}
+
+.height40p
+{
+	height: var(--var40p);
+}
+
+.height45p
+{
+	height: var(--var45p);
+}
+
+.height50p
+{
+	height: var(--var50p);
+}
+
+.height55p
+{
+	height: var(--var55p);
+}
+
+.height60p
+{
+	height: var(--var60p);
+}
+
+.height65p
+{
+	height: var(--var65p);
+}
+
+.height70p
+{
+	height: var(--var70p);
+}
+
+.height75p
+{
+	height: var(--var75p);
+}
+
+.height80p
+{
+	height: var(--var80p);
+}
+
+.height85p
+{
+	height: var(--var85p);
+}
+
+.height90p
+{
+	height: var(--var90p);
+}
+
+.height95p
+{
+	height: var(--var95p);
+}
+
+.height100p
+{
+	height: var(--var100p);
+}
+/*--end widths--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin heights--*/
+.height1vw
+{
+	height: var(--var1vw);
+}
+
+.height2vw
+{
+	height: var(--var2vw);
+}
+
+.height3vw
+{
+	height: var(--var3vw);
+}
+
+.height4vw
+{
+	height: var(--var4vw);
+}
+
+.height5vw
+{
+	height: var(--var5vw);
+}
+
+.height10vw
+{
+	height: var(--var10vw);
+}
+
+.height15vw
+{
+	height: var(--var15vw);
+}
+
+.height20vw
+{
+	height: var(--var20vw);
+}
+
+.height25vw
+{
+	height: var(--var25vw);
+}
+
+.height30vw
+{
+	height: var(--var30vw);
+}
+
+.height35vw
+{
+	height: var(--var35vw);
+}
+
+.height40vw
+{
+	height: var(--var40vw);
+}
+
+.height45vw
+{
+	height: var(--var45vw);
+}
+
+.height50vw
+{
+	height: var(--var50vw);
+}
+
+.height55vw
+{
+	height: var(--var55vw);
+}
+
+.height60vw
+{
+	height: var(--var60vw);
+}
+
+.height65vw
+{
+	height: var(--var65vw);
+}
+
+.height70vw
+{
+	height: var(--var70vw);
+}
+
+.height75vw
+{
+	height: var(--var75vw);
+}
+
+.height80vw
+{
+	height: var(--var80vw);
+}
+
+.height85vw
+{
+	height: var(--var85vw);
+}
+
+.height90vw
+{
+	height: var(--var90vw);
+}
+
+.height95vw
+{
+	height: var(--var95vw);
+}
+
+.height100vw
+{
+	height: var(--var100vw);
+}
+/*--end widths--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin heights--*/
+.height1vh
+{
+	height: var(--var1vh);
+}
+
+.height2vh
+{
+	height: var(--var2vh);
+}
+
+.height3vh
+{
+	height: var(--var3vh);
+}
+
+.height4vh
+{
+	height: var(--var4vh);
+}
+
+.height5vh
+{
+	height: var(--var5vh);
+}
+
+.height10vh
+{
+	height: var(--var10vh);
+}
+
+.height15vh
+{
+	height: var(--var15vh);
+}
+
+.height20vh
+{
+	height: var(--var20vh);
+}
+
+.height25vh
+{
+	height: var(--var25vh);
+}
+
+.height30vh
+{
+	height: var(--var30vh);
+}
+
+.height35vh
+{
+	height: var(--var35vh);
+}
+
+.height40vh
+{
+	height: var(--var40vh);
+}
+
+.height45vh
+{
+	height: var(--var45vh);
+}
+
+.height50vh
+{
+	height: var(--var50vh);
+}
+
+.height55vh
+{
+	height: var(--var55vh);
+}
+
+.height60vh
+{
+	height: var(--var60vh);
+}
+
+.height65vh
+{
+	height: var(--var65vh);
+}
+
+.height70vh
+{
+	height: var(--var70vh);
+}
+
+.height75vh
+{
+	height: var(--var75vh);
+}
+
+.height80vh
+{
+	height: var(--var80vh);
+}
+
+.height85vh
+{
+	height: var(--var85vh);
+}
+
+.height90vh
+{
+	height: var(--var90vh);
+}
+
+.height95vh
+{
+	height: var(--var95vh);
+}
+
+.height100vh
+{
+	height: var(--var100vh);
+}
+/*--end heights--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin heights--*/
+.containerHeight5vw
+{
+	height: var(--varContainer5vw);
+}
+
+.containerHeight10vw
+{
+	height: var(--varContainer10vw);
+}
+
+.containerHeight15vw
+{
+	height: var(--varContainer15vw);
+}
+
+.containerHeight20vw
+{
+	height: var(--varContainer20vw);
+}
+
+.containerHeight25vw
+{
+	height: var(--varContainer25vw);
+}
+
+.containerHeight30vw
+{
+	height: var(--varContainer30vw);
+}
+
+.containerHeight35vw
+{
+	height: var(--varContainer35vw);
+}
+
+.containerHeight40vw
+{
+	height: var(--varContainer40vw);
+}
+
+.containerHeight45vw
+{
+	height: var(--varContainer45vw);
+}
+
+.containerHeight50vw
+{
+	height: var(--varContainer50vw);
+}
+
+.containerHeight55vw
+{
+	height: var(--varContainer55vw);
+}
+
+.containerHeight60vw
+{
+	height: var(--varContainer60vw);
+}
+
+.containerHeight65vw
+{
+	height: var(--varContainer65vw);
+}
+
+.containerHeight70vw
+{
+	height: var(--varContainer70vw);
+}
+
+.containerHeight75vw
+{
+	height: var(--varContainer75vw);
+}
+
+.containerHeight80vw
+{
+	height: var(--varContainer80vw);
+}
+
+.containerHeight85vw
+{
+	height: var(--varContainer85vw);
+}
+
+.containerHeight90vw
+{
+	height: var(--varContainer90vw);
+}
+
+.containerHeight95vw
+{
+	height: var(--varContainer95vw);
+}
+
+.containerHeight100vw
+{
+	height: var(--containerHeight100vw);
+}
+/*--end heights--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin heights--*/
+.containerHeight5vh
+{
+	height: var(--varContainer5vh);
+}
+
+.containerHeight10vh
+{
+	height: var(--varContainer10vh);
+}
+
+.containerHeight15vh
+{
+	height: var(--varContainer15vh);
+}
+
+.containerHeight20vh
+{
+	height: var(--varContainer20vh);
+}
+
+.containerHeight25vh
+{
+	height: var(--varContainer25vh);
+}
+
+.containerHeight30vh
+{
+	height: var(--varContainer30vh);
+}
+
+.containerHeight35vh
+{
+	height: var(--varContainer35vh);
+}
+
+.containerHeight40vh
+{
+	height: var(--varContainer40vh);
+}
+
+.containerHeight45vh
+{
+	height: var(--varContainer45vh);
+}
+
+.containerHeight50vh
+{
+	height: var(--varContainer50vh);
+}
+
+.containerHeight55vh
+{
+	height: var(--varContainer55vh);
+}
+
+.containerHeight60vh
+{
+	height: var(--varContainer60vh);
+}
+
+.containerHeight65vh
+{
+	height: var(--varContainer65vh);
+}
+
+.containerHeight70vh
+{
+	height: var(--varContainer70vh);
+}
+
+.containerHeight75vh
+{
+	height: var(--varContainer75vh);
+}
+
+.containerHeight80vh
+{
+	height: var(--varContainer80vh);
+}
+
+.containerHeight85vh
+{
+	height: var(--varContainer85vh);
+}
+
+.containerHeight90vh
+{
+	height: var(--varContainer90vh);
+}
+
+.containerHeight95vh
+{
+	height: var(--varContainer95vh);
+}
+
+.containerHeight100vh
+{
+	height: var(--varContainer100vh);
+}
+/*--end widths--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin widths--*/
+.containerWidth5vw
+{
+	width: var(--varContainer5vw);
+}
+
+.containerWidth10vw
+{
+	width: var(--varContainer10vw);
+}
+
+.containerWidth15vw
+{
+	width: var(--varContainer15vw);
+}
+
+.containerWidth20vw
+{
+	width: var(--varContainer20vw);
+}
+
+.containerWidth25vw
+{
+	width: var(--varContainer25vw);
+}
+
+.containerWidth30vw
+{
+	width: var(--varContainer30vw);
+}
+
+.containerWidth35vw
+{
+	width: var(--varContainer35vw);
+}
+
+.containerWidth40vw
+{
+	width: var(--varContainer40vw);
+}
+
+.containerWidth45vw
+{
+	width: var(--varContainer45vw);
+}
+
+.containerWidth50vw
+{
+	width: var(--varContainer50vw);
+}
+
+.containerWidth55vw
+{
+	width: var(--varContainer55vw);
+}
+
+.containerWidth60vw
+{
+	width: var(--varContainer60vw);
+}
+
+.containerWidth65vw
+{
+	width: var(--varContainer65vw);
+}
+
+.containerWidth70vw
+{
+	width: var(--varContainer70vw);
+}
+
+.containerWidth75vw
+{
+	width: var(--varContainer75vw);
+}
+
+.containerWidth80vw
+{
+	width: var(--varContainer80vw);
+}
+
+.containerWidth85vw
+{
+	width: var(--varContainer85vw);
+}
+
+.containerWidth90vw
+{
+	width: var(--varContainer90vw);
+}
+
+.containerWidth95vw
+{
+	width: var(--varContainer95vw);
+}
+
+.containerWidth100vw
+{
+	width: var(--varContainer100vw);
+}
+/*--end widths--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin widths--*/
+.containerWidth5vh
+{
+	width: var(--varContainer5vh);
+}
+
+.containerWidth10vh
+{
+	width: var(--varContainer10vh);
+}
+
+.containerWidth15vh
+{
+	width: var(--varContainer15vh);
+}
+
+.containerWidth20vh
+{
+	width: var(--varContainer20vh);
+}
+
+.containerWidth25vh
+{
+	width: var(--varContainer25vh);
+}
+
+.containerWidth30vh
+{
+	width: var(--varContainer30vh);
+}
+
+.containerWidth35vh
+{
+	width: var(--varContainer35vh);
+}
+
+.containerWidth40vh
+{
+	width: var(--varContainer40vh);
+}
+
+.containerWidth45vh
+{
+	width: var(--varContainer45vh);
+}
+
+.containerWidth50vh
+{
+	width: var(--varContainer50vh);
+}
+
+.containerWidth55vh
+{
+	width: var(--varContainer55vh);
+}
+
+.containerWidth60vh
+{
+	width: var(--varContainer60vh);
+}
+
+.containerWidth65vh
+{
+	width: var(--varContainer65vh);
+}
+
+.containerWidth70vh
+{
+	width: var(--varContainer70vh);
+}
+
+.containerWidth75vh
+{
+	width: var(--varContainer75vh);
+}
+
+.containerWidth80vh
+{
+	width: var(--varContainer80vh);
+}
+
+.containerWidth85vh
+{
+	width: var(--varContainer85vh);
+}
+
+.containerWidth90vh
+{
+	width: var(--varContainer90vh);
+}
+
+.containerWidth95vh
+{
+	width: var(--varContainer95vh);
+}
+
+.containerWidth100vh
+{
+	width: var(--varContainer100vh);
+}
+/*--end heights--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin grid--*/
+.displayGrid
+{
+	display: grid;
+	height: 100%;
+	width: 100%
+}
+/*--end grid--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin gridgap--*/
+.gridGap1
+{
+	grid-gap:1px;
+}
+
+.gridGap2
+{
+	grid-gap:2px;
+}
+
+.gridGap3
+{
+	grid-gap:3px;
+}
+
+.gridGap4
+{
+	grid-gap:4px;
+}
+
+.gridGap5
+{
+	grid-gap:5px;
+}
+
+.gridGap6
+{
+	grid-gap:6px;
+}
+
+.gridGap7
+{
+	grid-gap:7px;
+}
+
+.gridGap8
+{
+	grid-gap:8px;
+}
+
+.gridGap9
+{
+	grid-gap:9px;
+}
+
+.gridGap10
+{
+	grid-gap:10px;
+}
+/*--end gridgap--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin column--*/
+.basicColumn1
+{
+	grid-template-columns: var(--basicColum1);
+}
+
+.basicColumn2
+{
+	grid-template-columns: var(--basicColum2);
+}
+
+.basicColumn3
+{
+	grid-template-columns: var(--basicColum3);
+}
+
+.basicColumn4
+{
+	grid-template-columns: var(--basicColum4);
+}
+
+.basicColumn5
+{
+	grid-template-columns: var(--basicColum5);
+}
+
+.basicColumn6
+{
+	grid-template-columns: var(--basicColum6);
+}
+/*--end column--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin z-index--*/
+.index1
+{
+	z-index: 1;
+}
+
+.index2
+{
+	z-index: 2;
+}
+
+.index3
+{
+	z-index: 3;
+}
+
+.index4
+{
+	z-index: 4;
+}
+
+.index5
+{
+	z-index: 5;
+}
+/*--end z-index--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.borderRadius1px
+{
+	border-radius: var(--var1px);
+}
+
+.borderRadius2px
+{
+	border-radius: var(--var2px);
+}
+
+.borderRadius3px
+{
+	border-radius: var(--var3px);
+}
+
+.borderRadius4px
+{
+	border-radius: var(--var4px);
+}
+
+.borderRadius5px
+{
+	border-radius: var(--var5px);
+}
+
+.borderRadius10px
+{
+	border-radius: var(--var10px);
+}
+
+.borderRadius15px
+{
+	border-radius: var(--var15px);
+}
+
+.borderRadius20px
+{
+	border-radius: var(--var20px);
+}
+
+.borderRadius25px
+{
+	border-radius: var(--var25px);
+}
+
+.borderRadius30px
+{
+	border-radius: var(--var30px);
+}
+
+.borderRadius35px
+{
+	border-radius: var(--var35px);
+}
+
+.borderRadius40px
+{
+	border-radius: var(--var40px);
+}
+
+.borderRadius45px
+{
+	border-radius: var(--var45px);
+}
+
+.borderRadius50px
+{
+	border-radius: var(--var50px);
+}
+
+.borderRadius55px
+{
+	border-radius: var(--var55px);
+}
+
+.borderRadius60px
+{
+	border-radius: var(--var60px);
+}
+
+.borderRadius65px
+{
+	border-radius: var(--var65px);
+}
+
+.borderRadius70px
+{
+	border-radius: var(--var70px);
+}
+
+.borderRadius75px
+{
+	border-radius: var(--var75px);
+}
+
+.borderRadius80px
+{
+	border-radius: var(--var80px);
+}
+
+.borderRadius85px
+{
+	border-radius: var(--var85px);
+}
+
+.borderRadius90px
+{
+	border-radius: var(--var90px);
+}
+
+.borderRadius95px
+{
+	border-radius: var(--var95px);
+}
+
+.borderRadius100px
+{
+	border-radius: var(--var100px);
+}
+
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.borderRadiusTopLeft1px
+{
+	border-top-left-radius: var(--var1px);
+}
+
+.borderRadiusTopLeft2px
+{
+	border-top-left-radius: var(--var2px);
+}
+
+.borderRadiusTopLeft3px
+{
+	border-top-left-radius: var(--var3px);
+}
+
+.borderRadiusTopLeft4px
+{
+	border-top-left-radius: var(--var4px);
+}
+
+.borderRadiusTopLeft5px
+{
+	border-top-left-radius: var(--var5px);
+}
+
+.borderRadiusTopLeft10px
+{
+	border-top-left-radius: var(--var10px);
+}
+
+.borderRadiusTopLeft15px
+{
+	border-top-left-radius: var(--var15px);
+}
+
+.borderRadiusTopLeft20px
+{
+	border-top-left-radius: var(--var20px);
+}
+
+.borderRadiusTopLeft25px
+{
+	border-top-left-radius: var(--var25px);
+}
+
+.borderRadiusTopLeft30px
+{
+	border-top-left-radius: var(--var30px);
+}
+
+.borderRadiusTopLeft35px
+{
+	border-top-left-radius: var(--var35px);
+}
+
+.borderRadiusTopLeft40px
+{
+	border-top-left-radius: var(--var40px);
+}
+
+.borderRadiusTopLeft45px
+{
+	border-top-left-radius: var(--var45px);
+}
+
+.borderRadiusTopLeft50px
+{
+	border-top-left-radius: var(--var50px);
+}
+
+.borderRadiusTopLeft55px
+{
+	border-top-left-radius: var(--var55px);
+}
+
+.borderRadiusTopLeft60px
+{
+	border-top-left-radius: var(--var60px);
+}
+
+.borderRadiusTopLeft65px
+{
+	border-top-left-radius: var(--var65px);
+}
+
+.borderRadiusTopLeft70px
+{
+	border-top-left-radius: var(--var70px);
+}
+
+.borderRadiusTopLeft75px
+{
+	border-top-left-radius: var(--var75px);
+}
+
+.borderRadiusTopLeft80px
+{
+	border-top-left-radius: var(--var80px);
+}
+
+.borderRadiusTopLeft85px
+{
+	border-top-left-radius: var(--var85px);
+}
+
+.borderRadiusTopLeft90px
+{
+	border-top-left-radius: var(--var90px);
+}
+
+.borderRadiusTopLeft95px
+{
+	border-top-left-radius: var(--var95px);
+}
+
+.borderRadiusTopLeft100px
+{
+	border-top-left-radius: var(--var100px);
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.borderRadiusTopRight1px
+{
+	border-top-right-radius: var(--var1px);
+}
+
+.borderRadiusTopRight2px
+{
+	border-top-right-radius: var(--var2px);
+}
+
+.borderRadiusTopRight3px
+{
+	border-top-right-radius: var(--var3px);
+}
+
+.borderRadiusTopRight4px
+{
+	border-top-right-radius: var(--var4px);
+}
+
+.borderRadiusTopRight5px
+{
+	border-top-right-radius: var(--var5px);
+}
+
+.borderRadiusTopRight10px
+{
+	border-top-right-radius: var(--var10px);
+}
+
+.borderRadiusTopRight15px
+{
+	border-top-right-radius: var(--var15px);
+}
+
+.borderRadiusTopRight20px
+{
+	border-top-right-radius: var(--var20px);
+}
+
+.borderRadiusTopRight25px
+{
+	border-top-right-radius: var(--var25px);
+}
+
+.borderRadiusTopRight30px
+{
+	border-top-right-radius: var(--var30px);
+}
+
+.borderRadiusTopRight35px
+{
+	border-top-right-radius: var(--var35px);
+}
+
+.borderRadiusTopRight40px
+{
+	border-top-right-radius: var(--var40px);
+}
+
+.borderRadiusTopRight45px
+{
+	border-top-right-radius: var(--var45px);
+}
+
+.borderRadiusTopRight50px
+{
+	border-top-right-radius: var(--var50px);
+}
+
+.borderRadiusTopRight55px
+{
+	border-top-right-radius: var(--var55px);
+}
+
+.borderRadiusTopRight60px
+{
+	border-top-right-radius: var(--var60px);
+}
+
+.borderRadiusTopRight65px
+{
+	border-top-right-radius: var(--var65px);
+}
+
+.borderRadiusTopRight70px
+{
+	border-top-right-radius: var(--var70px);
+}
+
+.borderRadiusTopRight75px
+{
+	border-top-right-radius: var(--var75px);
+}
+
+.borderRadiusTopRight80px
+{
+	border-top-right-radius: var(--var80px);
+}
+
+.borderRadiusTopRight85px
+{
+	border-top-right-radius: var(--var85px);
+}
+
+.borderRadiusTopRight90px
+{
+	border-top-right-radius: var(--var90px);
+}
+
+.borderRadiusTopRight95px
+{
+	border-top-right-radius: var(--var95px);
+}
+
+.borderRadiusTopRight100px
+{
+	border-top-right-radius: var(--var100px);
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.borderRadiusBottomLeft1px
+{
+	border-bottom-left-radius: var(--var1px);
+}
+
+.borderRadiusBottomLeft2px
+{
+	border-bottom-left-radius: var(--var2px);
+}
+
+.borderRadiusBottomLeft3px
+{
+	border-bottom-left-radius: var(--var3px);
+}
+
+.borderRadiusBottomLeft4px
+{
+	border-bottom-left-radius: var(--var4px);
+}
+
+.borderRadiusBottomLeft5px
+{
+	border-bottom-left-radius: var(--var5px);
+}
+
+.borderRadiusBottomLeft10px
+{
+	border-bottom-left-radius: var(--var10px);
+}
+
+.borderRadiusBottomLeft15px
+{
+	border-bottom-left-radius: var(--var15px);
+}
+
+.borderRadiusBottomLeft20px
+{
+	border-bottom-left-radius: var(--var20px);
+}
+
+.borderRadiusBottomLeft25px
+{
+	border-bottom-left-radius: var(--var25px);
+}
+
+.borderRadiusBottomLeft30px
+{
+	border-bottom-left-radius: var(--var30px);
+}
+
+.borderRadiusBottomLeft35px
+{
+	border-bottom-left-radius: var(--var35px);
+}
+
+.borderRadiusBottomLeft40px
+{
+	border-bottom-left-radius: var(--var40px);
+}
+
+.borderRadiusBottomLeft45px
+{
+	border-bottom-left-radius: var(--var45px);
+}
+
+.borderRadiusBottomLeft50px
+{
+	border-bottom-left-radius: var(--var50px);
+}
+
+.borderRadiusBottomLeft55px
+{
+	border-bottom-left-radius: var(--var55px);
+}
+
+.borderRadiusBottomLeft60px
+{
+	border-bottom-left-radius: var(--var60px);
+}
+
+.borderRadiusBottomLeft65px
+{
+	border-bottom-left-radius: var(--var65px);
+}
+
+.borderRadiusBottomLeft70px
+{
+	border-bottom-left-radius: var(--var70px);
+}
+
+.borderRadiusBottomLeft75px
+{
+	border-bottom-left-radius: var(--var75px);
+}
+
+.borderRadiusBottomLeft80px
+{
+	border-bottom-left-radius: var(--var80px);
+}
+
+.borderRadiusBottomLeft85px
+{
+	border-bottom-left-radius: var(--var85px);
+}
+
+.borderRadiusBottomLeft90px
+{
+	border-bottom-left-radius: var(--var90px);
+}
+
+.borderRadiusBottomLeft95px
+{
+	border-bottom-left-radius: var(--var95px);
+}
+
+.borderRadiusBottomLeft100px
+{
+	border-bottom-left-radius: var(--var100px);
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.borderRadiusBottomRight1px
+{
+	border-bottom-right-radius: var(--var1px);
+}
+
+.borderRadiusBottomRight2px
+{
+	border-bottom-right-radius: var(--var2px);
+}
+
+.borderRadiusBottomRight3px
+{
+	border-bottom-right-radius: var(--var3px);
+}
+
+.borderRadiusBottomRight4px
+{
+	border-bottom-right-radius: var(--var4px);
+}
+
+.borderRadiusBottomRight5px
+{
+	border-bottom-right-radius: var(--var5px);
+}
+
+.borderRadiusBottomRight10px
+{
+	border-bottom-right-radius: var(--var10px);
+}
+
+.borderRadiusBottomRight15px
+{
+	border-bottom-right-radius: var(--var15px);
+}
+
+.borderRadiusBottomRight20px
+{
+	border-bottom-right-radius: var(--var20px);
+}
+
+.borderRadiusBottomRight25px
+{
+	border-bottom-right-radius: var(--var25px);
+}
+
+.borderRadiusBottomRight30px
+{
+	border-bottom-right-radius: var(--var30px);
+}
+
+.borderRadiusBottomRight35px
+{
+	border-bottom-right-radius: var(--var35px);
+}
+
+.borderRadiusBottomRight40px
+{
+	border-bottom-right-radius: var(--var40px);
+}
+
+.borderRadiusBottomRight45px
+{
+	border-bottom-right-radius: var(--var45px);
+}
+
+.borderRadiusBottomRight50px
+{
+	border-bottom-right-radius: var(--var50px);
+}
+
+.borderRadiusBottomRight55px
+{
+	border-bottom-right-radius: var(--var55px);
+}
+
+.borderRadiusBottomRight60px
+{
+	border-bottom-right-radius: var(--var60px);
+}
+
+.borderRadiusBottomRight65px
+{
+	border-bottom-right-radius: var(--var65px);
+}
+
+.borderRadiusBottomRight70px
+{
+	border-bottom-right-radius: var(--var70px);
+}
+
+.borderRadiusBottomRight75px
+{
+	border-bottom-right-radius: var(--var75px);
+}
+
+.borderRadiusBottomRight80px
+{
+	border-bottom-right-radius: var(--var80px);
+}
+
+.borderRadiusBottomRight85px
+{
+	border-bottom-right-radius: var(--var85px);
+}
+
+.borderRadiusBottomRight90px
+{
+	border-bottom-right-radius: var(--var90px);
+}
+
+.borderRadiusBottomRight95px
+{
+	border-bottom-right-radius: var(--var95px);
+}
+
+.borderRadiusBottomRight100px
+{
+	border-bottom-right-radius: var(--var100px);
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.borderRadius1p
+{
+	border-radius: var(--var1p);
+}
+
+.borderRadius2p
+{
+	border-radius: var(--var2p);
+}
+
+.borderRadius3p
+{
+	border-radius: var(--var3p);
+}
+
+.borderRadius4p
+{
+	border-radius: var(--var4p);
+}
+
+.borderRadius5p
+{
+	border-radius: var(--var5p);
+}
+
+.borderRadius10p
+{
+	border-radius: var(--var10p);
+}
+
+.borderRadius15p
+{
+	border-radius: var(--var15p);
+}
+
+.borderRadius20p
+{
+	border-radius: var(--var20p);
+}
+
+.borderRadius25p
+{
+	border-radius: var(--var25p);
+}
+
+.borderRadius30p
+{
+	border-radius: var(--var30p);
+}
+
+.borderRadius35p
+{
+	border-radius: var(--var35p);
+}
+
+.borderRadius40p
+{
+	border-radius: var(--var40p);
+}
+
+.borderRadius45p
+{
+	border-radius: var(--var45p);
+}
+
+.borderRadius50p
+{
+	border-radius: var(--var50p);
+}
+
+.borderRadius55p
+{
+	border-radius: var(--var55p);
+}
+
+.borderRadius60p
+{
+	border-radius: var(--var60p);
+}
+
+.borderRadius65p
+{
+	border-radius: var(--var65p);
+}
+
+.borderRadius70p
+{
+	border-radius: var(--var70p);
+}
+
+.borderRadius75p
+{
+	border-radius: var(--var75p);
+}
+
+.borderRadius80p
+{
+	border-radius: var(--var80p);
+}
+
+.borderRadius85p
+{
+	border-radius: var(--var85p);
+}
+
+.borderRadius90p
+{
+	border-radius: var(--var90p);
+}
+
+.borderRadius95p
+{
+	border-radius: var(--var95p);
+}
+
+.borderRadius100p
+{
+	border-radius: var(--var100p);
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.absolute
+{
+	position: absolute;
+}
+
+.relative
+{
+	position: relative;
+}
+
+.overFlowHidden
+{
+	overflow: hidden;
+}
+
+.borderBox
+{
+	box-sizing: border-box;
+}
+
+.paddingHalf
+{
+	padding: 0.5em;
+}
+
+.padding1
+{
+	padding: 1em;
+}
+
+.padding1Half
+{
+	padding: 1.5em;
+}
+
+.padding2
+{
+	padding: 2em;
+}
+
+.padding2Half
+{
+	padding: 2.5em;
+}
+
+.padding3
+{
+	padding: 3em;
+}
+
+.padding3Half
+{
+	padding: 3.5em;
+}
+
+.padding4
+{
+	padding: 4em;
+}
+
+.padding4Half
+{
+	padding: 4.5em;
+}
+
+.padding5
+{
+	padding: 5em;
+}
+
+.paddingLeftHalf
+{
+	padding-left: 0.5em;
+}
+
+.paddingLeft1
+{
+	padding-left: 1em;
+}
+
+.paddingLeft1Half
+{
+	padding-left: 1.5em;
+}
+
+.paddingLeft2
+{
+	padding-left: 2em;
+}
+
+.paddingLeft2Half
+{
+	padding-left: 2.5em;
+}
+
+.paddingLeft3
+{
+	padding-left: 3em;
+}
+
+.paddingLeft3Half
+{
+	padding-left: 3.5em;
+}
+
+.paddingLeft4
+{
+	padding-left: 4em;
+}
+
+.paddingLeft4Half
+{
+	padding-left: 4.5em;
+}
+
+.paddingLeft5
+{
+	padding-left: 5em;
+}
+
+.paddingRightHalf
+{
+	padding-right: 0.5em;
+}
+
+.paddingRight1
+{
+	padding-right: 1em;
+}
+
+.paddingRight1Half
+{
+	padding-right: 1.5em;
+}
+
+.paddingRight2
+{
+	padding-right: 2em;
+}
+
+.paddingRight2Half
+{
+	padding-right: 2.5em;
+}
+
+.paddingRight3
+{
+	padding-right: 3em;
+}
+
+.paddingRight3Half
+{
+	padding-right: 3.5em;
+}
+
+.paddingRight4
+{
+	padding-right: 4em;
+}
+
+.paddingRight4Half
+{
+	padding-right: 4.5em;
+}
+
+.paddingRight5
+{
+	padding-right: 5em;
+}
+
+.paddingTopHalf
+{
+	padding-top: 0.5em;
+}
+
+.paddingTop1
+{
+	padding-top: 1em;
+}
+
+.paddingTop1Half
+{
+	padding-top: 1.5em;
+}
+
+.paddingTop2
+{
+	padding-top: 2em;
+}
+
+.paddingTop2Half
+{
+	padding-top: 2.5em;
+}
+
+.paddingTop3
+{
+	padding-top: 3em;
+}
+
+.paddingTop3Half
+{
+	padding-top: 3.5em;
+}
+
+.paddingTop4
+{
+	padding-top: 4em;
+}
+
+.paddingTop4Half
+{
+	padding-top: 4.5em;
+}
+
+.paddingTop5
+{
+	padding-top: 5em;
+}
+
+
+.paddingBottomHalf
+{
+	padding-bottom: 0.5em;
+}
+
+.paddingBottom1
+{
+	padding-bottom: 1em;
+}
+
+.paddingBottom1Half
+{
+	padding-bottom: 1.5em;
+}
+
+.paddingBottom2
+{
+	padding-bottom: 2em;
+}
+
+.paddingBottom2Half
+{
+	padding-bottom: 2.5em;
+}
+
+.paddingBottom3
+{
+	padding-bottom: 3em;
+}
+
+.paddingBottom3Half
+{
+	padding-bottom: 3.5em;
+}
+
+.paddingBottom4
+{
+	padding-bottom: 4em;
+}
+
+.paddingBottom4Half
+{
+	padding-bottom: 4.5em;
+}
+
+.paddingBottom5
+{
+	padding-bottom: 5em;
+}
+
+
+.textCenter
+{
+	text-align: center;
+}
+
+.textRight
+{
+	text-align: right;
+}
+
+.textLeft
+{
+	text-align: left;
+}
+
+.textJustify
+{
+	text-align: justify;
+}
+
+.textDecorationNull
+{
+	text-decoration: none;
+}
+
+.upperCase
+{
+	text-transform: uppercase;
+}
+
+.lowerCase
+{
+	text-transform: lowercase;
+}
+
+.capitalize
+{
+	text-transform: capitalize;
+}
+
+.wt
+{
+	width: 45%;
+	height: 75%;
+	background-color: white;
+}
+
+.innerWt
+{
+	width: 90%;
+	height: 70%;
+}
+
+.rotate10
+{
+	transform: rotate(10deg);
+}
+
+.rotate20
+{
+	transform: rotate(20deg);
+}
+
+.rotate30
+{
+	transform: rotate(30deg);
+}
+
+.rotate40
+{
+	transform: rotate(40deg);
+}
+
+.rotate50
+{
+	transform: rotate(50deg);
+}
+
+.rotate60
+{
+	transform: rotate(60deg);
+}
+
+.rotate70
+{
+	transform: rotate(70deg);
+}
+
+.rotate80
+{
+	transform: rotate(80deg);
+}
+
+.rotate90
+{
+	transform: rotate(90deg);
+}
+
+.rotateMinus10
+{
+	transform: rotate(-10deg);
+}
+
+.rotateMinus20
+{
+	transform: rotate(-20deg);
+}
+
+.rotateMinus30
+{
+	transform: rotate(-30deg);
+}
+
+.rotateMinus40
+{
+	transform: rotate(-40deg);
+}
+
+.rotateMinus50
+{
+	transform: rotate(-50deg);
+}
+
+.rotateMinus60
+{
+	transform: rotate(-60deg);
+}
+
+.rotateMinus70
+{
+	transform: rotate(-70deg);
+}
+
+.rotateMinus80
+{
+	transform: rotate(-80deg);
+}
+
+.rotateMinus90
+{
+	transform: rotate(-90deg);
+}
+
+/*----------------------------------------------discrete separator----------------------------------------------*/
+
+.displayFlex
+{
+	display: flex;
+}
+
+.alignContentTopCenter
+{
+	align-items: center;
+}
+
+.contentCenter
+{
+	justify-content: center;
+}
+
+.contentLeft
+{
+	justify-content: flex-start;
+}
+
+.contentRight
+{
+	justify-content: flex-end;
+}
+
+.buttonP
+{
+	width: 30%;
+	height: 50%;
+}
+
+.borderColor
+{
+	border-color: red;
+}
+
+.borderStyle
+{
+	border-style: solid;
+}
+
+.borderStyleBottom
+{
+	border-bottom: solid;
+}
+
+.borderStyleLeft
+{
+	border-left: solid;
+}
+
+.borderStyleRight
+{
+	border-right: solid;
+}
+
+.borderColorRedWarning
+{
+	border-color: #a22e2e;
+}
+
+.borderColorGreen
+{
+	border-color: green;
+}
+
+.borderWidthHalf
+{
+	border-width: 0.5px;
+}
+
+.borderWidth1
+{
+	border-width: 1px;
+}
+
+.borderWidth1Half
+{
+	border-width: 1.5px;
+}
+
+.borderWidth2
+{
+	border-width: 2px;
+}
+
+.borderWidth2Half
+{
+	border-width: 2.5px;
+}
+
+.borderWidth3
+{
+	border-width: 3px;
+}
+
+.borderWidth3Half
+{
+	border-width: 3.5px;
+}
+
+.borderWidth4
+{
+	border-width: 4px;
+}
+
+.borderWidth4Half
+{
+	border-width: 4.5px;
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Set the colors and parameters of the main bar.
+@return: none
+*/
+/*--begin mainbar--*/
+.mainBar
+{
+	/*position: fixed;*/
+	width: 100%;
+	height: 3em;
+}
+/*--end mainbar--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Set the parameters of the image in main bar.
+@return: none
+*/
+/*--begin mainbaricon--*/
+.mainBarIcon
+{
+	width: 4em;
+	height: 3em;
+	background: url('../img/logoCountBox1.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Set align center on container.
+@return: none
+*/
+/*--begin containeraligncenter--*/
+.containerAlignCenter
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+/*--end containeraligncenter--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: Set the container of login.
+@return: none
+*/
+/*--begin logincontainer--*/
+.loginContainer
+{
+	border-style:solid;
+	border-width: 1px;
+	border-color: gray;
+	width: 33%;
+	height: 70%;
+}
+/*--end logincontainer--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/* 
+@see
+@version: 1.0
+@author: Camilo Forero
+@date: 2018-11-12.
+@param: none.
+@desc: .
+@return: none
+*/
+/*--begin inputtext--*/
+.inputText
+{
+	margin: auto;
+	padding-top: 0.5em; 
+	font-family: caviarDreams;
+	font-size: 1.1em;
+	display: block;
+	width: 90%;
+	height: 30px;
+}
+/*--end inputtext--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin input--*/
+.input
+{
+	margin: auto;
+	font-family: caviarDreams;
+	font-size: 1em;
+	display: block;
+	width: 90%;
+	height: 30px;
+}
+/*--end input--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+/*--begin button--*/
+.button
+{
+	margin: auto;
+	margin-top: 0.7em;
+	padding-top: 0.5em;
+	font-family: caviarDreams;
+	width: 90%;
+	height: 30px;
+	text-align: center;
+}
+/*--end button--*/
+/*----------------------------------------------discrete separator----------------------------------------------*/
+
+.crystalize
+{
+	background-color:rgba(54,56,58,0.8);
+}
+
+.fontCaviar
+{
+	font-family: caviarDreams;
+}
+
+.fontSizeHalf1
+{
+	font-size: 0.5em;
+}
+
+.fontSize1
+{
+	font-size: 1em;
+}
+
+.fontSize1Half
+{
+	font-size: 1.5em;
+}
+
+.fontSize2
+{
+	font-size: 2em;
+}
+
+.fontSize2Half
+{
+	font-size: 2.5em;
+}
+
+.fontSize3
+{
+	font-size: 3em;
+}
+
+.fontSize3Half
+{
+	font-size: 3.5em;
+}
+
+.fontSize4
+{
+	font-size: 4em;
+}
+
+.fontSize4Half
+{
+	font-size: 4.5em;
+}
+
+.fontSize5
+{
+	font-size: 5em;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+
+.colorBackgroundHoverCorporativeBlue:hover
+{
+	background-color: rgb(0,168,243);	
+}
+
+.colorFontHoverWhite:hover
+{
+	color: white;	
+}
+
+.colorFontHoverCorporativeBlue:hover
+{
+	color:  rgb(0,168,243);	
+}
+/*----------------------------------------------discrete separator----------------------------------------------*/
+.carousel
+{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel input
+{
+	/*position: absolute;*/
+	/*display: inline-block;*/
+	z-index: 3;
+}
+
+.carousel div
+{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel img
+{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel input::before
+{
+	background-color: red;
+	content: '<';
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.carousel input:checked ~ input::before
+{
+	content: '>';
+}
+
+.carousel input + div 
+{
+  transform: translate3d(-100%,0,0);
+  transition: transform .5s ease-in-out;
+}
+
+.carousel input:checked + div 
+{
+	transform: translate3d(0,0,0);
+}
+
+.carousel input:checked + div ~ div 
+{
+	transform: translate3d(100%,0,0);
+}
+
+.displayNone
+{
+	display: none;
+}
+
+.displayTrue
+{
+	display: true;
+}
+
+.displayHoverHiddenOverFlow:hover
+{
+	overflow: visible;
+}
+
+.visibilityHidden
+{
+	visibility: hidden;
+}
+
+.visibilityVisible
+{
+	visibility: visible;
+}
+
+.displayBlock
+{
+	display: inline-block;
+}
+
+.corporativeWhiteGreen
+{
+	background-color: #71a5a0;
+}
+
+.onloadContainer
+{
+	top:0;
+	z-index: 15;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color:  rgba(0,0,0, 0.6);	
+}
+
+@keyframes aniRotate360 
+{
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(90deg);}
+  50%  {transform: rotate(180deg);}
+  75%  {transform: rotate(270deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.rotate360 
+{
+  position: relative;
+  animation-name: aniRotate360;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.iconLoadCountBox
+{
+	width: 9em;
+	height: 9em;
+	background: url('../img/logoCountBox1.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.top10
+{
+	top: 10%;
+}
+
+.top20
+{
+	top: 20%;
+}
+
+.top25
+{
+	top: 25%;
+}
+
+.top30
+{
+	top: 30%;
+}
+
+.top40
+{
+	top: 40%;
+}
+
+.top50
+{
+	top: 50%;
+}
+
+.top60
+{
+	top: 60%;
+}
+
+.top70
+{
+	top: 70%;
+}
+
+.top80
+{
+	top: 80%;
+}
+
+.top90
+{
+	top: 90%;
+}
+
+.top100
+{
+	top: 100%;
+}
